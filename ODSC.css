@@ -1,0 +1,33 @@
+a {
+    color: #3bada2 !important;
+}
+
+.tdi-bg {
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    background: no-repeat center/contain url(https://www.thedataincubator.com/wp-content/uploads/incubator-800x450.jpg);
+    filter: saturate(0.8) opacity(0.2);
+}
+.tdi-footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4em;
+    background: #1f4874;
+}
+.tdi-footer .left {
+    color: white;
+    padding-left: 2em;
+}
+.tdi-footer .right {
+    color: #3bada2;
+    font-style: italic;
+    padding-right: 2em;
+}
